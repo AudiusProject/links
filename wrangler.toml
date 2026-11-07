@@ -1,0 +1,13 @@
+name = "audius-links"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+account_id = "3811365464a8e56b2b27a5590e328e49"
+assets = { directory = "public", binding = "ASSETS" }
+workers_dev = true
+
+# Serves audius.co/links ahead of the main web worker (more specific route wins).
+# Uncomment once approved:
+# routes = [
+#   { pattern = "audius.co/links", zone_name = "audius.co" },
+#   { pattern = "audius.co/links/*", zone_name = "audius.co" }
+# ]
