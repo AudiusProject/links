@@ -1,9 +1,148 @@
 {
   "title": "Audius",
   "tagline": "",
-  "socials": [],
-  "links": [
-    { "title": "Audius", "url": "https://audius.co/" }
+  "socials": [
+    {
+      "platform": "twitter",
+      "url": "https://twitter.com/Audius"
+    },
+    {
+      "platform": "threads",
+      "url": "https://threads.net/@audius"
+    },
+    {
+      "platform": "tiktok",
+      "url": "https://tiktok.com/@audius"
+    },
+    {
+      "platform": "youtube",
+      "url": "https://youtube.com/@AudiusMusic/featured"
+    }
   ],
-  "posts": []
+  "links": [
+    {
+      "title": "Sign Up",
+      "url": "https://audius.co/"
+    },
+    {
+      "title": "Join our Discord",
+      "url": "https://discord.gg/audius"
+    },
+    {
+      "group": "Official Audius Playlists",
+      "links": [
+        {
+          "title": "Hot & New",
+          "url": "https://audius.co/audius/playlist/hot-new-on-audius-%F0%9F%94%A5-4281"
+        },
+        {
+          "title": "140",
+          "url": "https://audius.co/Audius/playlist/140"
+        },
+        {
+          "title": "Windows Down",
+          "url": "https://audius.co/Audius/playlist/windows-down"
+        }
+      ]
+    },
+    {
+      "title": "Send Demos to Friends & Family (Disclosure's Label)",
+      "url": "https://friendsandfamily.crate.is/submit"
+    },
+    {
+      "title": "Symmetry Festival DJ Contest",
+      "url": "https://audius.co/symmetryfestival/contest/symmetry-2026-official-dj-competition"
+    },
+    {
+      "title": "Host a Contest on Audius",
+      "url": "https://audius.co/contests"
+    }
+  ],
+  "posts": [
+    {
+      "image": "/links/posts/55579943.jpg",
+      "url": "https://audius.co/soundsbymystic/westside-connection-bow-down-mstic-brainrack-remix",
+      "alt": "It’s VIRAL SZN. @soundsbymystic made his Philly debut and threw down with @brainrackofficial last Friday. "
+    },
+    {
+      "image": "/links/posts/55292874.jpg",
+      "url": "https://audius.co/clubs",
+      "alt": "Fan Clubs on Audius just leveled up with text posts."
+    },
+    {
+      "image": "/links/posts/54879338.jpg",
+      "url": "https://friendsandfamily.crate.is/submit",
+      "alt": "Want to get your demos heard by Guy from @disclosure and signed to @disclosure_friendsandfam? 💿"
+    },
+    {
+      "image": "/links/posts/54844627.jpg",
+      "url": "https://audius.co/Audius/playlist/womens-history-month",
+      "alt": "Putting the spotlight exactly where it belongs. This playlist celebrates the women artists pushing the boundaries of sou"
+    },
+    {
+      "image": "/links/posts/54821836.jpg",
+      "url": "https://www.billboard.com/p/streaming-dance-power-players-list-2026/",
+      "alt": "Thank you @billboard for naming our Co-Founder/CEO Roneil Rumburg in the Dance Power Players 2026 list for streaming!"
+    },
+    {
+      "image": "/links/posts/54735613.jpg",
+      "url": "https://303.audius.co/",
+      "alt": "It's 303 Day! Create and upload directly to Audius on 303.audius.co"
+    },
+    {
+      "image": "/links/posts/53631192.jpg",
+      "url": "https://yak.audius.co/yakmas",
+      "alt": "Ho ho ho! @kodakblack's 12 Days of YAK is here 🎄"
+    },
+    {
+      "image": "/links/posts/53506202.jpg",
+      "url": "https://audius.co/the_knocks/keynote",
+      "alt": "REMIX CONTEST ALERT 🎧🚨"
+    },
+    {
+      "image": "/links/posts/53353467.jpg",
+      "url": "https://audius.co/kodakblack/kodak-black-acres",
+      "alt": "New unreleased track from @kodakblack just dropped for top fans ONLY 🔥🔝"
+    },
+    {
+      "image": "/links/posts/52995925.jpg",
+      "url": "https://www.billboard.com/music/rb-hip-hop/kodak-black-yak-artist-coin-1236110410/",
+      "alt": "Kodak Black just launched his Artist Coin YAK and VIP fan club on Audius and it is NOT what you think, but so much more."
+    },
+    {
+      "image": "/links/posts/52989168.jpg",
+      "url": "https://yak.audius.co/",
+      "alt": "YOU ALREADY KNOW 🔥"
+    },
+    {
+      "image": "/links/posts/52849943.jpg",
+      "url": "https://audius.co/coins",
+      "alt": "What if you could go deeper with fans and earn new income as an artist? It's possible with Artist Coins on Audius and @c"
+    },
+    {
+      "image": "/links/posts/52774280.jpg",
+      "url": "https://audius.co/NGHTMRE/nghtmre-street-remix-contest",
+      "alt": "We've teamed up with @nghtmre to launch a remix contest for \"STREET\" to celebrate 10 years of his breakout single!"
+    },
+    {
+      "image": "/links/posts/52624720.jpg",
+      "url": "https://audius.co/coins/KITT",
+      "alt": "From punk beginnings to house music pioneers, the lore of @tube_and_berger goes deep. Let’s get to know the German duo b"
+    },
+    {
+      "image": "/links/posts/52581602.jpg",
+      "url": "https://audius.co/coins/KITT",
+      "alt": "You don't have to be the rando that asks for guest list anymore 🎟️✨"
+    },
+    {
+      "image": "/links/posts/52498497.jpg",
+      "url": "https://blog.audius.co/article/what-makes-artist-coins-different-and-worth-your-time",
+      "alt": "This isn't your average fan club."
+    },
+    {
+      "image": "/links/posts/52436415.jpg",
+      "url": "https://help.audius.co/artists/how-to-launch-an-artist-coin",
+      "alt": "Artists, ready to build your own exclusive fan club? "
+    }
+  ]
 }
