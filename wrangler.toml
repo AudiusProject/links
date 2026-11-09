@@ -11,3 +11,6 @@ workers_dev = true
 #   { pattern = "audius.co/links", zone_name = "audius.co" },
 #   { pattern = "audius.co/links/*", zone_name = "audius.co" }
 # ]
+
+# Per-branch preview builds (Workers Builds runs `wrangler preview` on non-main branches).
+[previews]
