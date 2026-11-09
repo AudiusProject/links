@@ -17,10 +17,10 @@ kv_namespaces = [{ binding = "LINKS_KV" }]
 # ]
 
 # Not secrets. IG_APP_SECRET is a Worker secret set in the Cloudflare dashboard.
-# Admin stays locked until ACCESS_AUD is set to the Access application's AUD tag.
+# ACCESS_AUD is the AUD tag of the "audius.co/links admin" Access application.
 [vars]
 ACCESS_TEAM_DOMAIN = "faucet-61o-pages.cloudflareaccess.com"
-ACCESS_AUD = ""
+ACCESS_AUD = "a4d507d28df5452398e3d87edacd0332e4be4c4c84d8f6a7d84ff04c5f93b11a"
 IG_APP_ID = ""
 
 # Instagram sync
@@ -30,4 +30,4 @@ crons = ["*/30 * * * *"]
 # Per-branch preview builds. Previews don't inherit top-level bindings or vars.
 # Without a LINKS_KV binding here, previews render links.json read-only.
 [previews]
-vars = { KV_PREFIX = "preview:", ACCESS_TEAM_DOMAIN = "faucet-61o-pages.cloudflareaccess.com", ACCESS_AUD = "" }
+vars = { KV_PREFIX = "preview:", ACCESS_TEAM_DOMAIN = "faucet-61o-pages.cloudflareaccess.com", ACCESS_AUD = "a4d507d28df5452398e3d87edacd0332e4be4c4c84d8f6a7d84ff04c5f93b11a" }
