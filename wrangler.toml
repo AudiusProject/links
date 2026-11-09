@@ -5,9 +5,8 @@ account_id = "3811365464a8e56b2b27a5590e328e49"
 assets = { directory = "public", binding = "ASSETS" }
 workers_dev = true
 
-# Page content, uploaded images and the Instagram token. No id: the first
-# production deploy creates the namespace and reuses it after that.
-kv_namespaces = [{ binding = "LINKS_KV" }]
+# Page content, uploaded images and the Instagram token.
+kv_namespaces = [{ binding = "LINKS_KV", id = "873a6303809948df883d1d789471f4d0" }]
 
 # Serves audius.co/links ahead of the main web worker (more specific route wins).
 # Uncomment once approved:
