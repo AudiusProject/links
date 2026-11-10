@@ -9,11 +9,10 @@ workers_dev = true
 kv_namespaces = [{ binding = "LINKS_KV", id = "873a6303809948df883d1d789471f4d0" }]
 
 # Serves audius.co/links ahead of the main web worker (more specific route wins).
-# Uncomment once approved:
-# routes = [
-#   { pattern = "audius.co/links", zone_name = "audius.co" },
-#   { pattern = "audius.co/links/*", zone_name = "audius.co" }
-# ]
+routes = [
+  { pattern = "audius.co/links", zone_name = "audius.co" },
+  { pattern = "audius.co/links/*", zone_name = "audius.co" }
+]
 
 # Not secrets. IG_APP_SECRET is a Worker secret set in the Cloudflare dashboard.
 # ACCESS_AUD is the AUD tag of the "audius.co/links admin" Access application.
